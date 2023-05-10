@@ -5,7 +5,7 @@ Applications of several projects, the main entry points are: ```main_flask.py```
 
 ## Author
 
-- [@BYehuda](https://github.com/BYehuda)
+- [@B-Yehuda](https://github.com/B-Yehuda)
 
 
 ## Environment Setup
