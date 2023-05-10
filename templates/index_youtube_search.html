@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <style>
+        body
+        {
+        background-repeat:no-repeat;
+        background-attached:fixed;
+        background-size:cover;
+        background-image:url({{url_for('static',filename='MERCURY.jpg')}})
+        }
+    </style>
+</head>
+
+<body style="color:white; font-family: 'Sans-serif'">
+
+<h1
+        style="color:white; font-family: 'Sans-serif; font-size: 3em;" >YouTube; Lookalike Channels Search Engine
+</h1>
+
+
+<form action="/youtube_search" method="post" enctype="multipart/form-data">
+    <input type="file" name="data_file" class="btn btn-block"/>
+    </br>
+    </br>
+    <button type="submit" class="btn btn-primary btn-block btn-large">Search</button>
+</form>
+
+</body>
+
+</html>
